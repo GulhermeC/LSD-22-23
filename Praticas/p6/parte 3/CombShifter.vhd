@@ -7,12 +7,12 @@ entity CombShifter is
 			dirLeft		: in std_logic;
 			shArith		: in std_logic;
 			rotate		: in std_logic;
-			shAmount		: in std_logic_vector(2 downto 0);
-			dataOut		: out std_logic_vector(7 downto 0));
+			shAmount	: in std_logic_vector(2 downto 0);
+			dataOut		: out std_logic_vector(7 downto 0):="00000000");
 end CombShifter;
 
 architecture Behavioral of CombShifter is
-	signal s_shAmount : integer;
+	signal s_shAmount : natural;
 begin
 	s_shAmount <= to_integer(unsigned(shAmount));
 	
