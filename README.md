@@ -11,3 +11,4 @@
  - P3 - alu, fullAdder, hexaDecimal to decimal
  - P4 - flipflop, latch, register(8 bit w/ reset)|(N bit), counter (4 bit)(up, down & load), deBouncer, frequencyDivider
  - P5 - comparador(4/N bit), accumulator(N bit), timer(enable every 2 seconds), basicWatch 
+ - P6 - shift register(4/N bit), sequencial shift unit, combinatory shift unit
